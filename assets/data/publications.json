@@ -7,7 +7,7 @@
     "type": "conference",
     "badge": "Conference",
     "keywords": ["dataset", "clinical AI", "dermatology", "annotations", "medical imaging"],
-    "blurb": "Introduces a multi-concept dermatology dataset centered on Indian skin disorders, enabling clinically relevant benchmarking and richer supervision beyond class labels.",
+    "blurb": "Introduces a multi-concept dermatology dataset centered on Indian skin disorders, enabling richer supervision beyond class labels. Benchmarks using various DL and CBM frameworks.",
     "links": [
       { "label": "NeurIPS page", "url": "https://neurips.cc/virtual/2025/loc/san-diego/poster/121561" },
       { "label": "arXiv", "url": "https://arxiv.org/abs/2506.06099" },
@@ -23,7 +23,7 @@
     "type": "workshop",
     "badge": "Workshop",
     "keywords": ["Alzheimer's", "T1w sMRI", "transformers", "priors", "interpretability"],
-    "blurb": "Injects domain priors into transformer attention for T1w sMRI-based AD detection, aiming for stronger inductive bias and more meaningful relevance patterns.",
+    "blurb": "Injects domain priors from AAL3+JHU WM brain atlas into transformer attention for T1w sMRI-based AD detection, aiming for stronger inductive bias and more meaningful relevance patterns.",
     "links": [
       { "label": "PDF", "url": "https://openaccess.thecvf.com/content/CVPR2025W/XAI4CV/papers/V_Rel-SA_Alzheimers_Disease_Detection_using_Relevance-augmented_Self_Attention_by_Inducing_CVPRW_2025_paper.pdf" },
       { "label": "GitHub", "url": "https://github.com/madhuV29/Rel-SA" }
@@ -64,7 +64,7 @@
     "type": "conference",
     "badge": "Conference",
     "keywords": ["optimization", "sign language", "health informatics"],
-    "blurb": "Proposes an optimization-based approach for sign language interpretation, focusing on efficient sequence/structure handling in a biomedical informatics setting.",
+    "blurb": "Proposes a pipeline of traditional computer vision algorithms for Indian sign language interpretation, focusing on numbers, letters, and words recognition.",
     "links": [
       { "label": "PDF", "url": "https://bhi.embs.org/2023/wp-content/uploads/sites/97/2023/10/IEEE-BHI-2023-Program.v4.pdf" }
     ]
