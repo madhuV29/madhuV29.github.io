@@ -1,0 +1,101 @@
+[
+  {
+    "title": "DermaCon-IN: A Multi-concept Annotated Dermatological Image Dataset of Indian Skin Disorders for Clinical AI Research",
+    "authors": "Shanawaj S. Madarkar*, Mahajabeen Madarkar*, Madhumitha V*, Teli Prakash, Konda Reddy Mopuri, et al.",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "type": "conference",
+    "badge": "Conference",
+    "keywords": ["dataset", "clinical AI", "dermatology", "annotations", "medical imaging"],
+    "blurb": "Introduces a multi-concept dermatology dataset centered on Indian skin disorders, enabling clinically relevant benchmarking and richer supervision beyond class labels.",
+    "links": [
+      { "label": "NeurIPS page", "url": "https://neurips.cc/virtual/2025/loc/san-diego/poster/121561" },
+      { "label": "arXiv", "url": "https://arxiv.org/abs/2506.06099" },
+      { "label": "Dataset", "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W7OUZM" },
+      {"label": "GitHub", "url": "https://github.com/shan4035/DermaCon-IN-code"}
+    ]
+  },
+  {
+    "title": "Rel-SA: Alzheimer’s Disease Detection using Relevance-augmented Self Attention by Inducing Domain Priors in Vision Transformers",
+    "authors": "Madhumitha V*, Shanawaj S. Madarkar*, Sunayna Padhye*, Susmit Agrawal, Konda Reddy Mopuri",
+    "venue": "CVPR Workshops",
+    "year": 2025,
+    "type": "workshop",
+    "badge": "Workshop",
+    "keywords": ["Alzheimer's", "T1w sMRI", "transformers", "priors", "interpretability"],
+    "blurb": "Injects domain priors into transformer attention for T1w sMRI-based AD detection, aiming for stronger inductive bias and more meaningful relevance patterns.",
+    "links": [
+      { "label": "PDF", "url": "https://openaccess.thecvf.com/content/CVPR2025W/XAI4CV/papers/V_Rel-SA_Alzheimers_Disease_Detection_using_Relevance-augmented_Self_Attention_by_Inducing_CVPRW_2025_paper.pdf" },
+      { "label": "GitHub", "url": "https://github.com/madhuV29/Rel-SA" }
+    ]
+  },
+  {
+    "title": "Can memory networks play a role in task-specific modulation of neural circuits?",
+    "authors": "Susmit Agrawal, Krishn Vishwas Kher, Madhumitha V, Vineeth N. Balasubramanian",
+    "venue": "ICLR Workshops",
+    "year": 2025,
+    "type": "workshop",
+    "badge": "Workshop",
+    "keywords": ["memory networks", "neural circuits", "task modulation"],
+    "blurb": "Explores whether memory-augmented architectures can support task-specific modulation behaviors, connecting model mechanisms to neural-circuit hypotheses.",
+    "links": [
+      { "label": "OpenReview", "url": "https://openreview.net/forum?id=wg3eBNp4zk" },
+      { "label": "PDF", "url": "https://openreview.net/pdf?id=wg3eBNp4zk" }
+    ]
+  },
+  {
+    "title": "Detecting Alzheimer’s disease with Efficient ViTs",
+    "authors": "Shanawaj S. Madarkar, Madhumitha V, Sunayna Padhye, Konda Reddy Mopuri",
+    "venue": "ISMRM India Chapter",
+    "year": 2025,
+    "type": "conference",
+    "badge": "Conference",
+    "keywords": ["Alzheimer's", "ViT", "efficiency", "neuroimaging"],
+    "blurb": "Investigates lightweight vision transformers for AD detection, emphasizing compute-aware modeling and practical deployment constraints.",
+    "links": [
+      { "label": "PDF", "url": "https://ismrmindiachapter2025.iith.ac.in/Proceedings.pdf" }
+    ]
+  },
+  {
+    "title": "URVoice: An Akl-Toussaint / Graham-Sklansky Optimization for Sign Language Interpretation",
+    "authors": "Madhumitha V, Santhi Natarajan, Bharathi A, Manjunath Sargur Krishnamurthy",
+    "venue": "IEEE-EMBS BHI",
+    "year": 2023,
+    "type": "conference",
+    "badge": "Conference",
+    "keywords": ["optimization", "sign language", "health informatics"],
+    "blurb": "Proposes an optimization-based approach for sign language interpretation, focusing on efficient sequence/structure handling in a biomedical informatics setting.",
+    "links": [
+      { "label": "PDF", "url": "https://bhi.embs.org/2023/wp-content/uploads/sites/97/2023/10/IEEE-BHI-2023-Program.v4.pdf" }
+    ]
+  },
+  {
+    "title": "Machine Learning Approach for Diagnosis of Schizophrenia Using EEG Signals",
+    "authors": "I. S. Rajesh, D. Sri Lakshmi Priya, V. Madhumitha, Shreyas Sreenivas",
+    "venue": "MARC (Springer Proceedings)",
+    "year": 2023,
+    "type": "bookchapter",
+    "badge": "Book Chapter",
+    "keywords": ["EEG", "schizophrenia", "ML", "diagnosis"],
+    "blurb": "Uses EEG-derived signals for schizophrenia classification with traditional machine learning baselines and feature-driven evaluation.",
+    "links": [
+      { "label": "DOI (chapter)", "url": "https://doi.org/10.1007/978-981-97-5231-7_13" },
+      { "label": "Proceedings", "url": "https://doi.org/10.1007/978-981-97-5231-7" }
+    ]
+  },
+  {
+    "title": "A Comparative Study for Early Diagnosis of Alzheimer’s Disease Using Machine Learning Techniques",
+    "authors": "A. Bharathi Malakreddy, D. Sri Lakshmi Priya, V. Madhumitha, Aryan Tiwari",
+    "venue": "ICICC (Springer LNNS)",
+    "year": 2023,
+    "type": "bookchapter",
+    "badge": "Book Chapter",
+    "keywords": ["Alzheimer's", "ML", "early diagnosis", "comparison"],
+    "blurb": "Compares machine learning approaches for early AD screening, highlighting feature/model tradeoffs for demented vs non-demented categorization.",
+    "links": [
+      { "label": "Springer chapter", "url": "https://link.springer.com/chapter/10.1007/978-981-99-4071-4_16" },
+      { "label": "DOI", "url": "https://doi.org/10.1007/978-981-99-4071-4_16" }
+    ]
+  }
+]
+

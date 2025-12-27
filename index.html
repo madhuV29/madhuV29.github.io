@@ -1,41 +1,527 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - Madhumitha V</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Madhumitha V | Research</title>
+  <meta name="description" content="Researcher in medical AI and neuroimaging: knowledge-driven AI, anomaly detection, transformers, foundation and multimodal models." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
 
-  <header>
-    <h1>Madhumitha V</h1>
-    <nav>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="activities.html">Activities</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="dot"></span>
+        <span class="brand-text">Madhumitha V</span>
+      </a>
+
+      <nav class="nav">
+      <a href="#research">Research</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#service">Service</a>
+      <div class="topbar__actions">
+        <button id="themeToggle" class="iconbtn" type="button" aria-label="Toggle theme">
+          <!-- moon/sun -->
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.8A8.5 8.5 0 0 1 11.2 3a7 7 0 1 0 9.8 9.8z"></path>
+          </svg>
+        </button>
+
+        <div class="iconrow" id="headerIcons" aria-label="Links"></div>
+      </div>
     </nav>
+
+    </div>
   </header>
 
-  <main class="home-content">
-    <h2>Hey there! Welcome to my page.</h2>
-    <p>I am Madhumitha V, 2<sup>nd</sup> year PhD student, guided by Dr. Konda Reddy Mopuri, in the Dept. of Artificial Intelligence, IIT Hyderabad. My research interests focuses on Computer Vision, Deep Learning, AI for Neuroscience and Explainability.</p>
-    <p>This website showcases my research, publications, projects, and academic activities.</p>
+  <main id="main">
+    <!-- HERO = ABOUT ME -->
+    <section class="hero" id="about">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="kicker">PhD (AI) @ IIT Hyderabad · TCS Research Scholar · Medical AI</p>
 
-    <div class="resume-link">
-        <p><a href="Madhumitha_Resume (3).pdf" target="_blank">📄 My Resume</a></p>
+          <h1>
+            About me
+          </h1>
+
+          <div class="subhead">
+            <p>
+                    I am a PhD scholar specializing in <strong>Knowledge-Driven Deep Learning</strong> and <strong>Medical AI</strong>. My current work focuses on anomaly detection in medical imaging, specifically developing clinically grounded AI architectures for the classification of <strong>Neurodegenerative diseases </strong> like <strong>Alzheimer's Disease (AD)</strong> using T1w sMRIs.
+                </p>
+                <p>
+                    I have a strong background in computer vision and deep learning architectures. Currently, I am exploring the intersection of <strong>Foundation Models</strong> and <strong>Vision-Language Models (VLMs)</strong> using <strong>Transformers</strong> to create interpretable and data-efficient solutions for healthcare. My research blends <b>domain priors</b>, <b>transformers</b>, and <b>interpretable evidence</b>
+            to build robust models under real-world constraints (low data, shift, and reliability needs).
+                </p>
+            
+            
+            
+              </div>
+
+          <div class="chips" aria-label="keywords">
+            <span class="chip">Deep Learning</span>
+            <span class="chip">Computer Vision</span>
+            <span class="chip">AI for Healthcare</span>
+            <span class="chip">3D Medical Imaging</span>
+            <span class="chip">4D Longitudinal modelling</span>
+            <span class="chip">Anomaly Detection</span>
+            <span class="chip">Explainability</span>
+            <span class="chip">Transformers</span>
+            <span class="chip">Foundation models</span>
+            <span class="chip">VLMs</span>
+          </div>
+
+
+          <div class="note">
+            <b>Open to:</b> research collaborations, paper discussions, and project ideas in medical imaging AI.
+          </div>
+
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <img class="avatar" src="assets/img/profile.jpeg" alt="Profile photo" onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='grid';" />
+            <div id="avatarFallback" class="avatar-fallback" style="display:none;">
+              <span>MV</span>
+            </div>
+
+            <div class="profile-meta">
+              <div class="meta-row">
+                <span class="meta-label">Affiliation</span>
+                <span class="meta-value">DiL Lab · IIT Hyderabad</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">Role</span>
+                <span class="meta-value">Medical AI Researcher & Architect</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">Focus</span>
+                <span class="meta-value">Knowledge-driven AI frameworks · Interpretable clinical AI </span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">Now</span>
+                <span class="meta-value">Anomaly detection in low data regimes · AD progression modeling </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- icon-only links -->
+          <div class="icon-row" aria-label="social links">
+            <a class="icon-link" href="https://madhuv29.github.io/" target="_blank" rel="noopener" aria-label="Website" title="Website">
+              <!-- globe -->
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm7.7 9h-3.1a15.6 15.6 0 0 0-1.2-5 8.1 8.1 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.2 3.2 7H8.8C9.6 6.2 11.1 4 12 4ZM6.6 6a15.6 15.6 0 0 0-1.2 5H2.3a8.1 8.1 0 0 1 4.3-5ZM2.3 13h3.1c.3 1.9.8 3.6 1.4 5a8.1 8.1 0 0 1-4.5-5Zm9.7 7c-.9 0-2.4-2.2-3.2-7h6.4c-.8 4.8-2.3 7-3.2 7Zm5.2-2a15.6 15.6 0 0 0 1.4-5h3.1a8.1 8.1 0 0 1-4.5 5Z"/></svg>
+            </a>
+
+            <a class="icon-link" href="https://github.com/madhuV29" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <!-- github -->
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.3-.3-4.7-1.2-4.7-5.1 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.2 9.2 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.7 5.1.4.3.7 1 .7 2.1V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+            </a>
+
+            <a class="icon-link" href="https://www.linkedin.com/in/madhu-v/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <!-- linkedin -->
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2ZM8.1 19H5.4V9.7h2.7V19ZM6.7 8.5a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2ZM19 19h-2.7v-5c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V19H10V9.7h2.6V11h.1c.4-.8 1.4-1.7 2.9-1.7 3.1 0 3.7 2.1 3.7 4.8V19Z"/></svg>
+            </a>
+
+            <a class="icon-link" href="https://scholar.google.com/citations?hl=en&user=gFYiQNkAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+              <!-- scholar (cap) -->
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3Zm0 13L4.2 11.7 12 7.5l7.8 4.2L12 16Zm-6 1.2V19c0 1.7 3 3 6 3s6-1.3 6-3v-1.8l-6 3.3-6-3.3Z"/></svg>
+            </a>
+
+            <a class="icon-link" href="mailto:ai23resch11004@iith.ac.in" aria-label="Email" title="Email">
+              <!-- mail -->
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+            </a>
+          </div>
+
+
+        </div>
       </div>
+    </section>
+
+    <!-- RESEARCH THEMES -->
+    <section id="research" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Research Focus</h2>
+          <p>
+            <em><b>Knowledge-driven deep learning for anomaly detection in medical imaging under low-data regimes</b></em>
+            — with an emphasis on T1w sMRI and neurodegenerative disease modeling.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Knowledge-driven AI frameworks</h3>
+            <p>Integrating anatomical priors, clinically meaningful constraints, and evidence-oriented objectives into learning.</p>
+            <div class="tags">
+              <span class="tag">domain priors</span>
+              <span class="tag">interpretability</span>
+              <span class="tag">clinical alignment</span>
+              <span class="tag">low-data regimes</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Anomaly detection in medical imaging</h3>
+            <p>Detecting subtle deviations and abnormal patterns under shift, limited labels, and reliability requirements.</p>
+            <div class="tags">
+              <span class="tag">OOD / shift</span>
+              <span class="tag">generalizability</span>
+              <span class="tag">weak supervision</span>
+              <span class="tag">robustness</span>
+              <span class="tag">low-data regimes</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Transformers & Foundation models</h3>
+            <p>Attention mechanisms designed for structure-aware medical imaging and evidence tracing.</p>
+            <div class="tags">
+              <span class="tag">ViTs</span>
+              <span class="tag">Efficiency</span>
+              <span class="tag">Domain priors</span>
+              <span class="tag">XAI</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Multimodal Medical AI</h3>
+            <p>Representation learning and alignment strategies for medical imaging, including multimodal reasoning setups.</p>
+            <div class="tags">
+              <span class="tag">Representation learning</span>
+              <span class="tag">VLM</span>
+              <span class="tag">Alignment</span>
+              <span class="tag">Visual grounding</span>
+              <span class="tag">Concepts</span>
+              <span class="tag">Clinical assistance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>News</h2>
+          <p>Recent updates...</p>
+        </div>
+
+        <div class="card">
+          <ul class="bullets">
+
+            <li><b>Dec 2025:</b> Attended <b>NeurIPS 2025</b>, San Diego, USA.</li>
+            <li><b>Oct 2025:</b> Co-authored dataset work accepted at <b>NeurIPS 2025</b> (DermaCon-IN).</li>
+            <li><b>Dec 2025:</b> Attended <b>CVPR 2025</b>, Nashville, Tennessee, USA.</li>
+            <li><b>Apr 2025:</b> Paper accepted at <b>CVPR 2025</b> in <b>XAI4CV Workshop</b> (Rel-SA: relevance-augmented self-attention for AD).</li>
+            <li><b>Dec 2024:</b> Attended ICVGIP, IIIT Bangalore</li>
+            <li><b>Aug 2024:</b> Attended NCVPRIPG, IIST Trivandrum</li>
+            <li><b>Apr 2024:</b> Project on "Hallucination detection in Large Language Models" was awarded <strong>2<sup>nd</sup> best project</strong> in NLP coursework.</li>
+            <li><b>Dec 2023:</b> Attended ICVGIP, IIT Ropar</li>
+            <li><b>Aug 2023:</b> Awarded <strong>VTU GOLD MEDAL</strong> for securing First Rank in Bachelor of Engineering (Dept. of AI\&ML) in Karnataka State.</li>
+            <li><b>Jul 2022:</b> Winner of Project-based learning, Open Day, BMSIT&M for the project on "Early detection of Alzheimer’s Disease using Machine Learning techniques".</li>
+            <li><b>Apr 2022:</b> Awarded Special Recognition Award, Srishti Hackathon, a State-level competition, conducted by Yuvaka Sangha in association with BMS College of Engineering.</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Publications</h2>
+          <!-- <p>
+            Each entry includes a 1–2 line description and links (PDF / project / code / venue).
+            <span class="muted">Loaded from <code>assets/data/publications.json</code>.</span>
+          </p> -->
+        </div>
+
+        <div class="pub-controls">
+          <input id="pubSearch" class="input" type="search" placeholder="Search papers (title, venue, keywords)..." />
+          <select id="pubFilter" class="select" aria-label="Filter by type">
+            <option value="all">All</option>
+            <option value="conference">Conference</option>
+            <option value="workshop">Workshop</option>
+            <option value="bookchapter">Book chapter</option>
+            <option value="preprint">Preprint</option>
+          </select>
+        </div>
+
+        <div id="pubList" class="pub-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+
+
+        <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Education</h2>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="edu-head">
+              <img class="edu-logo" src="assets/img/logos/IITH-logo.png" alt="IIT Hyderabad logo"
+                  onerror="this.style.display='none'" />
+              <div>
+                <h3>PhD in Artificial Intelligence</h3>
+                <p class="muted"><b>IIT Hyderabad</b></p>
+              </div>
+            </div>
+
+            <div class="edu-lines">
+              <ul class="bullets">
+                <li><b>Year:</b> 2023 - (Ongoing)</li>
+                <li><b>Achievement:</b> TCS Research Fellowship</li>
+                <li><b>GPA:</b> 8.38/10</li>
+              </ul>
+            </div>
+
+            <!-- optional small org badge row
+            <div class="edu-badges">
+              <span class="edu-badge">
+                <img src="assets/img/logos/tcs.png" alt="TCS" onerror="this.style.display='none'" />
+                <span>TCS Research Scholar</span>
+              </span>
+            </div> -->
+          </div>
+
+
+          <div class="card">
+            <div class="edu-head">
+              <img class="edu-logo" src="assets/img/logos/bmsitm-logo.jpg" alt="BMSIT&M logo"
+                  onerror="this.style.display='none'" />
+              <div>
+                <h3>B.E. in Artificial Intelligence &amp; Machine Learning</h3>
+                <p class="muted"><b>BMS Institute of Technology &amp; Management, Bangalore</b></p>
+              </div>
+            </div>
+
+            <div class="edu-lines">
+              <ul class="bullets">
+                <li><b>Year:</b> 2019 - 2023</li>
+                <li><b>Achievement:</b> VTU Gold Medallist</li>
+                <li><b>GPA:</b> 9.49/10</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>Industry and research experience.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- IBM -->
+          <div class="card">
+            <div class="exp-head">
+              <img class="exp-logo" src="assets/img/logos/ibm-logo.jpg" alt="IBM logo"
+                  onerror="this.style.display='none'" />
+              <div class="exp-titleblock">
+                <h3>Data Scientist Intern</h3>
+                <p class="muted"><b>IBM India Systems Development Lab</b></p>
+                <p>Bangalore, India</p>
+              </div>
+              <span class="exp-date muted">Feb 2023 – Jul 2023</span>
+            </div>
+
+            <div class="exp-body">
+              <ul class="bullets">
+                <li>Worked with <b>Team AI</b> on <b>IBM Z systems</b>.</li>
+                <li>
+                  Built, tested, and delivered a prototype to deploy ML models (using <b>SnapML</b>) for
+                  <b>Credit Card Fraud Detection</b> on <b>S/390x Z</b> systems using the <b>Triton Inference Server</b>.
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="tag">IBM Z</span>
+                <span class="tag">SnapML</span>
+                <span class="tag">Triton</span>
+                <span class="tag">Model deployment</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- IISc -->
+          <div class="card">
+            <div class="exp-head">
+              <img class="exp-logo" src="assets/img/logos/iisc_logo.jpg" alt="IISc logo"
+                  onerror="this.style.display='none'" />
+              <div class="exp-titleblock">
+                <h3>Research Intern</h3>
+                <p class="muted">
+                  <b>NeuRonICS Lab, DESE, Indian Institute of Science (IISc)</b>
+                </p>
+                <p>Bangalore, India</p>
+              </div>
+              <span class="exp-date muted">Aug 2022 – Dec 2022</span>
+            </div>
+
+            <div class="exp-body">
+              <ul class="bullets">
+                <li><b>Guides:</b> Ms. Madhuvanthi and Prof. Chetan Singh Thakur.</li>
+                <li>
+                  Trained Neural Networks and CNNs using <b>Simultaneous Perturbation Stochastic Approximation (SPSA)</b> on
+                  <b>MNIST</b> for deployment on <b>neuromorphic hardware</b>.
+                </li>
+              </ul>
+              <div class="tags">
+                <span class="tag">SPSA</span>
+                <span class="tag">MNIST</span>
+                <span class="tag">Neuromorphic</span>
+                <span class="tag">Optimization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Selected projects, including guides/advisors.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>PhD Thesis: Knowledge-informed deep learning for high-dimensional neuroimaging (low data)</h3>
+            <p class="muted"><b>Guide:</b> Dr. Konda Reddy Mopuri (DiL Lab, IIT Hyderabad)</p>
+            <p>
+              Developing clinically-aligned modeling for sMRI data with domain priors and interpretability constraints
+              to assist diagnosis of disorders including Alzheimer’s disease.
+            </p>
+            <div class="tags">
+              <span class="tag">Deep Learning</span><span class="tag">XAI</span><span class="tag">sMRI</span><span class="tag">priors</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Hallucination detection in large language models</h3>
+            <p class="muted"><b>Advisor:</b> Dr. Maunendra Desarkar (NLP coursework)</p>
+            <p>
+              Comparative study of hallucination behaviors using self-checking signals (BERTScore / QA / N-gram variants).
+            </p>
+            <div class="tags">
+              <span class="tag">LLM reliability</span><span class="tag">evaluation</span><span class="tag">self-checking</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Blood report (CBC-DBC) generation using blood smear images</h3>
+            <p class="muted"><b>Advisor:</b> Dr. Sumohana Channappayya (IVP coursework)</p>
+            <p>
+              Segmentation + counting for RBC/WBC and YOLO-based detection to classify key WBC categories.
+            </p>
+            <div class="tags">
+              <span class="tag">detection</span><span class="tag">segmentation</span><span class="tag">YOLO</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Radiogenomics for neurocognitive disorders</h3>
+            <p class="muted"><b>Advisors:</b> Dr. Santhi Natarajan, Dr. Bharathi Malakreddy (BMSIT&amp;M)</p>
+            <p>
+              Radiomics + genomics processing (incl. GATK) and evidence fusion via statistical mapping for disorder characterization.
+            </p>
+            <div class="tags">
+              <span class="tag">radiomics</span><span class="tag">genomics</span><span class="tag">fusion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- SERVICE -->
+    <section id="service" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Service</h2>
+          <p>Reviewing and teaching contributions.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Sub-reviewing</h3>
+            <ul class="bullets">
+              <li>ICLR 2026, ICLR 2025</li>
+              <li>WACV 2025</li>
+              <li>TPAMI 2024</li>
+              <li>ECAI 2024</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Teaching assistantship</h3>
+            <ul class="bullets">
+              <li>Computer Vision TA (Spring 2026)</li>
+              <li>CyberAI Course TA (Aug,Oct 2025)</li>
+              <li>Deep Learning TA (Spring 2024 &amp; 2025)</li>
+              <li>AIET certificate program hands-on sessions (Feb 2025)</li>
+              <li>DRDO Workshop: DL &amp; CV algorithms (Jul 2024)</li>
+              <li>Online FDP hands-on session (NIT Warangal faculty, Jun 2025)</li>
+            </ul>
+          </div>
+        </div>
+
+        <footer class="site-footer">
+          <div class="footer-icons" aria-label="contact icons">
+            <a class="icon-link" href="https://madhuv29.github.io/" target="_blank" rel="noopener" aria-label="Website" title="Website">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm7.7 9h-3.1a15.6 15.6 0 0 0-1.2-5 8.1 8.1 0 0 1 4.3 5ZM12 4c.9 0 2.4 2.2 3.2 7H8.8C9.6 6.2 11.1 4 12 4ZM6.6 6a15.6 15.6 0 0 0-1.2 5H2.3a8.1 8.1 0 0 1 4.3-5ZM2.3 13h3.1c.3 1.9.8 3.6 1.4 5a8.1 8.1 0 0 1-4.5-5Zm9.7 7c-.9 0-2.4-2.2-3.2-7h6.4c-.8 4.8-2.3 7-3.2 7Zm5.2-2a15.6 15.6 0 0 0 1.4-5h3.1a8.1 8.1 0 0 1-4.5 5Z"/></svg>
+            </a>
+            <a class="icon-link" href="https://github.com/madhuV29" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.3-.3-4.7-1.2-4.7-5.1 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.2 9.2 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.7 5.1.4.3.7 1 .7 2.1V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/madhu-v/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2ZM8.1 19H5.4V9.7h2.7V19ZM6.7 8.5a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2ZM19 19h-2.7v-5c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V19H10V9.7h2.6V11h.1c.4-.8 1.4-1.7 2.9-1.7 3.1 0 3.7 2.1 3.7 4.8V19Z"/></svg>
+            </a>
+            <a class="icon-link" href="https://scholar.google.com/citations?hl=en&user=gFYiQNkAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3Zm0 13L4.2 11.7 12 7.5l7.8 4.2L12 16Zm-6 1.2V19c0 1.7 3 3 6 3s6-1.3 6-3v-1.8l-6 3.3-6-3.3Z"/></svg>
+            </a>
+            <a class="icon-link" href="mailto:ai23resch11004@iith.ac.in" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+            </a>
+          </div>
+
+          <div class="muted footer-note">
+            © <span id="year"></span> Madhumitha V
+          </div>
+        </footer>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>Contact: <a href="mailto:ai23resch11004@iith.ac.in">Email</a> | 
-    <a href="https://github.com/madhuV29">GitHub</a> | 
-    <a href="https://linkedin.com/in/madhu-v">LinkedIn</a></p>
-  </footer>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
